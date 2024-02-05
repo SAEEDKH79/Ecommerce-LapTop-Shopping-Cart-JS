@@ -1,0 +1,58 @@
+let productsDB = [
+    {
+      id: 1,
+      title: "Acer Nitro V Gaming item",
+      desc: "Intel Corei5-8GB-RAM512GB-Windows11-NVIDIA-GeForce2-GBVR.",
+      size: "small",
+      imageUrl: "images/Laptops/Acer Nitro V.jpg",
+      qty: 1,
+      isMe: "N",
+    },
+    {
+      id: 2,
+      title: "Asus TUF Gaming A15 Gaming item",
+      desc: "Intel Corei5-8GB-RAM512GB-Windows11-NVIDIA-GeForce2-GBVR.",
+      size: "large",
+      imageUrl: "images/Laptops/Asus TUF Gaming F15.jpg",
+      qty: 1,
+      isMe: "N",
+    },
+    {
+      id: 3,
+      title: "Dell G15 item",
+      desc: "Intel Corei5-8GB-RAM512GB-Windows11-NVIDIA-GeForce2-GBVR.",
+      size: "medium",
+      imageUrl: "images/Laptops/Dell G15 Gaming.jpg",
+      qty: 1,
+      isMe: "N",
+    },
+    {
+      id: 4,
+      title: "HP OMEN (with Headset) Gaming item",
+      desc: "Intel Corei5-8GB-RAM512GB-Windows11-NVIDIA-GeForce2-GBVR.",
+      size: "large",
+      imageUrl: "images/Laptops/HP OMEN Gaming.jpg",
+      qty: 1,
+      isMe: "N",
+    },
+    {
+      id: 5,
+      title: "Lenovo Legion Pro 7 Gaming item",
+      desc: "Intel Corei5-8GB-RAM512GB-Windows11-NVIDIA-GeForce2-GBVR.",
+      size: "medium",
+      imageUrl: "images/Laptops/Lenovo Legion 5 Gaming.jpg",
+      qty: 1,
+      isMe: "N",
+    },
+    {
+        id: 6,
+        title: "Apple MacBook Air 13 M1 Retina item",
+        desc: "Intel Corei5-8GB-RAM512GB-Windows11-NVIDIA-GeForce2-GBVR.",
+        size: "small",
+        imageUrl: "images/Laptops/Apple MacBook Air 15 M2.jpg",
+        qty: 1,
+        isMe: "N",
+      },
+    ];
+
+    // localStorage.setItem("products", JSON.stringify(productsDB));

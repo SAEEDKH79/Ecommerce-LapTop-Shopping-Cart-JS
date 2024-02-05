@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+        <link 
+        rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        />
+        <title>shopping cart | Home page</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+      <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+      
+
+
+        <header>
+            <div class="container">
+             <div class="header-content">
+            <a href="index.html" class="brand"> shopping cart </a>
+
+            <nav>
+              <ul id="links">
+                <li> <a href="login.html"> Sign In </a></li>
+                <li> <a href="register.html"> Sign Up </a></li>
+              </ul>
+              <ul id="user_info">
+                <li><a href="#" id="user"></a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li><a href="myproducts.html">My Products</a></li>
+                <li class="shoppingcart">
+                  <i class="fas fa-shopping-cart"></i>
+                  <span class="badge"></span>
+
+                  <div class="carts-products">  
+                    <div></div>
+                    <a href="cartproducts.html"> view all proudcts  </a>
+                  </div>
+                </li>
+                <li><a href="#" id="logout">Logout</a></li>
+              </ul>
+            </nav>
+         </div>
+     </div>
+    </header>
+    
+    <section class="home">
+      <div class="container">
+        <input id="search" type="text" placeholder="Search By Name" />
+        <div class="products"></div>
+        <div class="products-filter">
+          <h2>Filter By Size:</h2>
+          
+          <select id="size-filter">
+            <option value="" hidden>Filter By Size</option>
+            <option value="all">ALL</option>
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+          </select>
+        </div>
+      </div>
+
+      <a href="createproduct.html" class="create-product-icon">
+         <i class="fa fa-plus"></i>
+        </a>
+    </section>
+
+    <script src="js/user.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+    </body>
+</html>
